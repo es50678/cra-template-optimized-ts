@@ -1,6 +1,10 @@
 import React from "react";
 
-export class ShoppingList extends React.Component {
+interface Props {
+  name: string
+}
+
+export class ShoppingList extends React.Component<Props> {
   render() {
     return (
       <div className="shopping-list">

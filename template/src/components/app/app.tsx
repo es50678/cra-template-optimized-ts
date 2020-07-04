@@ -2,7 +2,6 @@ import React from 'react';
 
 import './app.css';
 import logo from '../../images/logo.svg';
-import { Game } from '../game';
 import { ShoppingList } from '../shopping-list';
 
 function App() {
@@ -22,8 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Game />
-      <ShoppingList />
+      <ShoppingList name="James" />
     </div>
   );
 }
